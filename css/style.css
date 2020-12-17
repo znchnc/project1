@@ -1,0 +1,160 @@
+.wrapper {
+  background: #F3F5F0;
+  border: 1px solid #000;
+  height: 1000px; /* TEMPORARY */
+  padding: 0 160px 0 160px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  margin: 0 50px;
+}
+.bottom-line {
+  border-bottom: 1px solid #eee color:red;
+}
+
+.logo {
+  /* border: 1px solid #000; */
+}
+.menu {
+  align-self: center;
+  /* border: 1px solid #000; */
+  font-family: Poppins;
+  font-style: normal;
+  font:font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+}
+.menu-link {
+  /* border: 1px solid red; */
+  margin: 0 20px;
+}
+.menu-link:first-child {
+  margin-left: 0;
+}
+.menu-link:last-child {
+  margin-right: 0;
+  color: #12614F;
+}
+
+.main-title {
+  font-size: 32px;
+}
+.strong {
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .header {
+    margin: 0 10px;
+  }
+}
+
+.main{
+display: flex;
+margin: 50px;
+margin-bottom: 120px;
+top: 260px;
+}
+
+.main-title{
+font-family: Poppins;
+font-style: normal;
+font-weight:150;
+font-size: 35px;
+line-height: 66px;
+color: #313B43;
+
+}
+
+.right-column{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+border: 1px solid #000; /*TEMPORARY*/
+width: 50%;
+}
+
+.left-column{
+display: flex;
+flex-direction:column;
+width: 50%;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 27px;
+
+}
+
+.name{
+  margin-right:50px;
+  margin-top: 40px;
+  margin-bottom: 0;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 27px;
+}
+
+.email{
+  margin-left: 50px;
+  margin-top: 40px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 27px;
+
+}
+
+.secondary{
+width: 421px;
+height: 24px;
+left: 220px;
+top: 428px;
+margin-top: 36px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+}
+
+.contact{
+  margin-top: 66px;
+}
+
+.question{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 39px;
+}
+
+.message{
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 27px;
+}
+
+.box {
+  width: 50%;
+  height: 50px;
+}
+
+.box2{
+  width: 50%;
+  height: 50px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+}
