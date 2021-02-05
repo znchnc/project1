@@ -1,7 +1,7 @@
 .wrapper {
   background: #F3F5F0;
   border: 1px solid #000;
-  height: 1000px; /* TEMPORARY */
+  height: 900px; /* TEMPORARY */
   padding: 0 160px 0 160px;
 }
 .header {
@@ -9,17 +9,18 @@
   justify-content: space-between;
   padding: 20px 0;
   margin: 0 50px;
+  border-bottom: 1px solid rgba(49, 59, 67, 0.2);
 }
 .bottom-line {
   border-bottom: 1px solid #eee color:red;
 }
 
-.logo {
-  /* border: 1px solid #000; */
+a{
+    text-decoration: none;
 }
+
 .menu {
   align-self: center;
-  /* border: 1px solid #000; */
   font-family: Poppins;
   font-style: normal;
   font:font-weight: normal;
@@ -27,7 +28,7 @@
   line-height: 27px;
 }
 .menu-link {
-  /* border: 1px solid red; */
+  color: #000;
   margin: 0 20px;
 }
 .menu-link:first-child {
@@ -58,22 +59,13 @@ margin-bottom: 120px;
 top: 260px;
 }
 
-.main-title{
+ .main-title{
 font-family: Poppins;
 font-style: normal;
 font-weight:150;
 font-size: 35px;
 line-height: 66px;
 color: #313B43;
-
-}
-
-.right-column{
-display: flex;
-justify-content: center;
-flex-wrap: wrap;
-border: 1px solid #000; /*TEMPORARY*/
-width: 50%;
 }
 
 .left-column{
@@ -85,30 +77,6 @@ font-style: normal;
 font-weight: 600;
 font-size: 14px;
 line-height: 27px;
-
-}
-
-.name{
-  margin-right:50px;
-  margin-top: 40px;
-  margin-bottom: 0;
-
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 27px;
-}
-
-.email{
-  margin-left: 50px;
-  margin-top: 40px;
-
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 27px;
 
 }
 
@@ -127,34 +95,105 @@ line-height: 24px;
 }
 
 .contact{
-  margin-top: 66px;
+margin-top: 66px;
 }
 
-.question{
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 39px;
-}
-
-.message{
+.form-group{
+display: flex;
+overflow: hidden;
 font-family: Poppins;
 font-style: normal;
-font-weight: 600;
-font-size: 12px;
-line-height: 27px;
+margin-left: 228px;
 }
 
-.box {
-  width: 50%;
-  height: 50px;
+input{
+max-height:39px;
+border: 1px solid rgba(49, 59, 67, 0.2);
 }
 
-.box2{
-  width: 50%;
-  height: 50px;
+.name{
+margin-right: 12px;
+width: 50%
+}
+
+.footer{
+border-top: 1px solid rgba(49, 59, 67, 0.2);
+height: 100px;
+}
+
+.form-group__title{
+width: 50%
+}
+
+.name-group{
   display: flex;
-  flex-direction: column-reverse;
-  justify-content: flex-start;
+
+}
+
+.first-form{
+  display: flex;
+}
+
+#name{
+padding-right: 110px;
+}
+
+#message{
+display: flex;
+flex-direction: column;
+padding-top: 46px;
+}
+
+.send{
+  display:flex;
+  padding-top: 77px;
+}
+
+.btn{
+  padding-left: 35px;
+
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+    margin: 360px 50px 0 50px;
+}
+
+.code{
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 24px;
+color: rgba(49, 59, 67, 0.2);
+}
+
+.user{
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 24px;
+color: #1C2126;
+
+display: flex;
+}
+
+.terms{
+  font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 24px;
+  padding: 0 190px 0 50px;
+}
+
+.society{
+  margin-top: 20px;
+}
+
+.link{
+  padding: 0 15px 0 15px;
 }
