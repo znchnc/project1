@@ -1,14 +1,12 @@
+
 .wrapper {
   background: #F3F5F0;
-  border: 1px solid #000;
-  height: 900px; /* TEMPORARY */
-  padding: 0 160px 0 160px;
+  width: 1920px;
 }
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 20px 0;
-  margin: 0 50px;
+  padding: 20px 220px;
   border-bottom: 1px solid rgba(49, 59, 67, 0.2);
 }
 .bottom-line {
@@ -16,7 +14,9 @@
 }
 
 a{
-    text-decoration: none;
+  text-decoration: none;
+  color: #000;
+  height: fit-content;
 }
 
 .menu {
@@ -27,6 +27,23 @@ a{
   font-size: 18px;
   line-height: 27px;
 }
+
+.footer-link:hover{
+  text-shadow: 0 0 11px rgba(191, 191, 191, 1);
+}
+
+.footer-link:active{
+  text-shadow: 0 0 11px rgba(82, 82, 82, 1);
+}
+
+.menu-link:hover{
+  text-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+.menu-link:active{
+  text-shadow: 0 0 11px rgba(82, 82, 82, 1);
+}
+
 .menu-link {
   color: #000;
   margin: 0 20px;
@@ -53,76 +70,79 @@ a{
 }
 
 .main{
-display: flex;
-margin: 50px;
-margin-bottom: 120px;
-top: 260px;
+  display: flex;
+  padding: 166px 220px 0 220px;
+  margin-bottom: 120px;
+  top: 260px;
 }
 
- .main-title{
-font-family: Poppins;
-font-style: normal;
-font-weight:150;
-font-size: 35px;
-line-height: 66px;
-color: #313B43;
+.main-title{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight:150;
+  font-size: 35px;
+  line-height: 66px;
+  color: #313B43;
 }
 
 .left-column{
-display: flex;
-flex-direction:column;
-width: 50%;
-font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 27px;
+  display: flex;
+  flex-direction:column;
+  width: 50%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 27px;
 
 }
 
 .secondary{
-width: 421px;
-height: 24px;
-left: 220px;
-top: 428px;
-margin-top: 36px;
+  width: 421px;
+  height: 24px;
+  left: 220px;
+  top: 428px;
+  margin-top: 36px;
 
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 24px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .contact{
-margin-top: 66px;
+  margin-top: 66px;
 }
 
 .form-group{
-display: flex;
-overflow: hidden;
-font-family: Poppins;
-font-style: normal;
-margin-left: 228px;
+  display: flex;
+  overflow: hidden;
+  font-family: Poppins;
+  font-style: normal;
+  margin-left: 218px;
 }
 
 input{
-max-height:39px;
-border: 1px solid rgba(49, 59, 67, 0.2);
+  max-height:39px;
+  background: #F3F5F0;
+  border: none;
+  border-bottom: 1px solid rgba(49, 59, 67, 0.2);
 }
 
 .name{
-margin-right: 12px;
-width: 50%
+  margin-right: 12px;
+  width: 50%
 }
 
 .footer{
-border-top: 1px solid rgba(49, 59, 67, 0.2);
-height: 100px;
+  border-top: 1px solid rgba(49, 59, 67, 0.2);
+  height: 100px;
 }
 
 .form-group__title{
-width: 50%
+  width: 50%
+  margin-bottom: 16px;
 }
 
 .name-group{
@@ -135,13 +155,13 @@ width: 50%
 }
 
 #name{
-padding-right: 110px;
+  padding-right: 110px;
 }
 
 #message{
-display: flex;
-flex-direction: column;
-padding-top: 46px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 46px;
 }
 
 .send{
@@ -150,44 +170,47 @@ padding-top: 46px;
 }
 
 .btn{
-  padding-left: 35px;
-
+  outline-style: none;
 }
 
 .footer{
   display: flex;
   justify-content: space-between;
-    margin: 360px 50px 0 50px;
+  align-items: center;
+  margin-top:360px;
+  padding: 0 220px;
 }
 
 .code{
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 24px;
-color: rgba(49, 59, 67, 0.2);
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  color: rgba(49, 59, 67, 0.2);
 }
 
 .user{
 
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 13px;
-line-height: 24px;
-color: #1C2126;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 24px;
+  color: #1C2126;
 
-display: flex;
+  display: flex;
+
+  padding-top: 15px;
 }
 
 .terms{
   font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 13px;
-line-height: 24px;
-  padding: 0 190px 0 50px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 24px;
+  margin: 0 190px 0 50px;
 }
 
 .society{
@@ -195,5 +218,36 @@ line-height: 24px;
 }
 
 .link{
-  padding: 0 15px 0 15px;
+  margin: 0 9px;
 }
+
+.face{
+  padding-right: 9px;
+}
+
+.inst{
+  padding-left:9px;
+}
+
+button{
+  background: #F3F5F0;
+  border: none;
+}
+
+.btn:hover{
+opacity: 0.8;
+}
+
+.btn:active{
+opacity: 0.9;
+}
+
+button, button:active, button:focus {
+    outline: none;
+}
+.submit{
+  padding-right: 35px;
+}
+
+input , input:focus {
+    outline: none;
