@@ -171,6 +171,7 @@ input{
 
 .btn{
   outline-style: none;
+  transition: all 0.5sec ease;
 }
 
 .footer{
